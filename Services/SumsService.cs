@@ -13,7 +13,7 @@ namespace RasuliEEndpoints.Services
             double n1;
             double n2;
 
-            if(double.TryParse(num1, out n1) && double.TryParse(num1, out n2)){
+            if(double.TryParse(num1, out n1) && double.TryParse(num2, out n2)){
                 return (n1+n2).ToString();
             }
             return "Nuh uh";
