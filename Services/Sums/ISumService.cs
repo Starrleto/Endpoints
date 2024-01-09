@@ -7,6 +7,6 @@ namespace RasuliEEndpoints.Services.Sums
 {
     public interface ISumService
     {
-        public double sum (double num1, double num2);
+        public string sum (string num1, string num2);
     }
 }

@@ -15,8 +15,8 @@ namespace RasuliEEndpoints.Controllers
         }
 
         [HttpGet]
-        [Route("getSum/{num1}/{num2}")]
-        public double sum(double num1, double num2)
+        [Route("GetSum/{num1}/{num2}")]
+        public string sum(string num1, string num2)
         {
             return _sumService.sum(num1, num2);
         }

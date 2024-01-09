@@ -15,7 +15,7 @@ namespace RasuliEEndpoints.Controllers
         }
 
         [HttpGet]
-        [Route("numResults/{num1}/{num2}")]
+        [Route("NumResults/{num1}/{num2}")]
         public string[] results(double num1, double num2){
             return _resultsService.results(num1, num2);
         }
