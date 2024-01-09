@@ -3,4 +3,5 @@ Ellie Rasuli
 Endpoints
 Create three different endpoints that return different data, using services and controllers.
 
-Peer Review:
+Peer Reviewer: Aidan Younathan
+Peer Review: Everything works as intended and didn't immediatly implope, Yippee!
