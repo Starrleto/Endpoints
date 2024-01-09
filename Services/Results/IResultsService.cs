@@ -7,6 +7,6 @@ namespace RasuliEEndpoints.Services.Sums.Results
 {
     public interface IResultsService
     {
-        public string[] results(double num1, double num2);
+        public string[] results(string num1, string num2);
     }
 }

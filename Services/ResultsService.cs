@@ -8,17 +8,24 @@ namespace RasuliEEndpoints.Services
 {
     public class ResultsService : IResultsService
     {
-        public string[] results(double num1, double num2)
+        public string[] results(string num1, string num2)
         {
-            if(num1 > num2){
-                return new string[]{$"{num1} is greater than {num2}" , $"{num2} is less than {num1}"};
+            double n1;
+            double n2;
+
+            if(double.TryParse(num1, out n1) && double.TryParse(num2, out n2)){
+                if(n1 > n2){
+                    return new string[]{$"{n1} is greater than {n2}" , $"{n2} is less than {n1}"};
+                }
+                else if(n1 < n2){
+                    return new string[]{$"{n1} is less than {n2}" , $"{n2} is greater than {n1}"};
+                }
+                else{
+                    return new string[]{$"{n1} is equal to {n2}" , $"{n2} is equal to {n1}"};
+                }
             }
-            else if(num1 < num2){
-                return new string[]{$"{num1} is less than {num2}" , $"{num2} is greater than {num1}"};
-            }
-            else{
-                return new string[]{$"{num1} is equal to {num2}" , $"{num2} is equal to {num1}"};
-            }
+            else
+                return new string[] {"Input was wrong. Please try again"};
         }
     }
 }
