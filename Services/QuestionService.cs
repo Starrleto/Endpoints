@@ -8,7 +8,7 @@ namespace RasuliEEndpoints.Services
 {
     public class QuestionService : IQuestionsService
     {
-        public string Question(string name, int time)
+        public string Question(string name, string time)
         {
             return $"Your name is {name} and you woke up at {time}";
         }

@@ -7,6 +7,6 @@ namespace RasuliEEndpoints.Services.Questions
 {
     public interface IQuestionsService
     {
-        public string Question(string name, int time);
+        public string Question(string name, string time);
     }
 }

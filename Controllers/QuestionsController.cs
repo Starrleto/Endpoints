@@ -16,7 +16,7 @@ namespace RasuliEEndpoints.Controllers
 
         [HttpGet]
         [Route("Questions/{name}/{time}")]
-        public string Question(string name, int time){
+        public string Question(string name, string time){
             return _questionsService.Question(name, time);
         }
     }
