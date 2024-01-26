@@ -31,6 +31,16 @@ builder.Services.AddScoped<IReverseStringService, ReverseStringService>();
 builder.Services.AddScoped<IMagicBallService, MagicBallService>();
 builder.Services.AddScoped<IRestaurauntPicker, RestaurauntPicker>();
 
+builder.Services.AddCors(option =>{
+    option.AddPolicy("CorsPolicy",
+        builder =>{
+            builder.AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowAnyOrigin();
+        }
+    );
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,5 +55,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors("CorsPolicy");
 
 app.Run();
