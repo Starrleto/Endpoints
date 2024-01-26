@@ -7,6 +7,8 @@ using RasuliEEndpoints.Services.Questions;
 
 namespace RasuliEEndpoints.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class QuestionsController
     {
         readonly private IQuestionsService _questionsService;

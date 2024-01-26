@@ -1,0 +1,12 @@
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\RasuliEEndpoints.exe
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\appsettings.Development.json
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\appsettings.json
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\RasuliEEndpoints.dll
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\RasuliEEndpoints.deps.json
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\RasuliEEndpoints.runtimeconfig.json
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\RasuliEEndpoints.pdb
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\Microsoft.OpenApi.dll
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ellie\Documents\Codestack omg\RasuliEEndpoints\bin\Release\net7.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -7,6 +7,8 @@ using RasuliEEndpoints.Services.Sums.Results;
 
 namespace RasuliEEndpoints.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class NumResultController
     {
         readonly private IResultsService _resultsService;
